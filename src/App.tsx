@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import AncientRus from './pages/history/AncientRus';
 import RomanovEra from './pages/history/RomanovEra';
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/history/ancient-rus" element={<AncientRus />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/history/soviet" element={<SovietEra />} />
         <Route path="/student-works" element={<StudentWorks />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

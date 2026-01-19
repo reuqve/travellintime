@@ -83,7 +83,7 @@ export default function Hero() {
         style={{ willChange: 'transform, opacity' }}
       >
         <img
-          src="/hero-fortress.jpg"
+          src="hero-fortress.jpg"
           alt="Ancient Russian fortress"
           className="w-full h-full object-cover animate-ken-burns"
         />

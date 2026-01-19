@@ -103,13 +103,13 @@ export default function VideoPreview() {
               }`}
             >
               <img
-                src="/video-battle.jpg"
+                src="video-battle.jpg"
                 alt="Historical video preview"
                 className={`w-full h-[350px] object-cover transition-transform duration-700 ${
                   isHovered ? 'scale-110' : 'scale-100'
                 }`}
               />
-              
+
               {/* Overlay */}
               <div
                 className={`absolute inset-0 bg-black/30 transition-opacity duration-300 ${
@@ -137,7 +137,7 @@ export default function VideoPreview() {
 
             {/* Decorative elements */}
             <div
-              className={`absolute -bottom-4 -right-4 w-full h-full border-2 border-[#242424]/20 rounded-lg transition-all duration-500 ${
+              className={`-bottom-4 -right-4 w-full h-full border-2 border-[#242424]/20 rounded-lg transition-all duration-500 ${
                 isHovered ? 'border-[#d1c7b8]' : ''
               }`}
             />

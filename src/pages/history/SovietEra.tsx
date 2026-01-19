@@ -116,7 +116,7 @@ export default function SovietEra() {
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="/soviet-era.jpg"
+            src="soviet-era.jpg"
             alt="Soviet Era"
             className="w-full h-full object-cover"
           />
