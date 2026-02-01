@@ -97,7 +97,7 @@ export default function Features() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="features-battle.jpg"
+          src="/features-battle.jpg"
           alt="Historical battle scene"
           className="w-full h-full object-cover opacity-20"
         />

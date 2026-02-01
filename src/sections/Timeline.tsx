@@ -14,7 +14,7 @@ const eras = [
     description:
       'Зарождение русского государства, крещение Руси, становление княжеской власти',
     icon: ScrollText,
-    image: 'ancient-rus.jpg',
+    image: '/ancient-rus.jpg',
   },
   {
     id: 'romanov',
@@ -23,7 +23,7 @@ const eras = [
     description:
       'Возвышение Москвы, освобождение от ордынского ига, становление самодержавия',
     icon: Crown,
-    image: 'romanov-era.jpg',
+    image: '/romanov-era.jpg',
   },
   {
     id: 'empire',
@@ -32,7 +32,7 @@ const eras = [
     description:
       'Петровские реформы, расширение границ, золотой век культуры',
     icon: Star,
-    image: 'modern-russia.jpg',
+    image: '/modern-russia.jpg',
   },
   {
     id: 'soviet',
@@ -41,7 +41,7 @@ const eras = [
     description:
       'Революция, индустриализация, победа в Великой Отечественной',
     icon: Building2,
-    image: 'soviet-era.jpg',
+    image: '/soviet-era.jpg',
   },
 ];
 

@@ -65,7 +65,7 @@ export default function CTA() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="cta-battle.jpg"
+          src="/cta-battle.jpg"
           alt="Historical battle"
           className="w-full h-full object-cover"
         />

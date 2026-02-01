@@ -116,7 +116,7 @@ export default function ImperialRussia() {
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="modern-russia.jpg"
+            src="/modern-russia.jpg"
             alt="Imperial Russia"
             className="w-full h-full object-cover"
           />

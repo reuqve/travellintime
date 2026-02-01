@@ -83,12 +83,14 @@ export default function Hero() {
         style={{ willChange: 'transform, opacity' }}
       >
         <img
-          src="hero-fortress.jpg"
+          src="/hero-fortress.jpg"
           alt="Ancient Russian fortress"
           className="w-full h-full object-cover animate-ken-burns"
         />
         {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#e8e4d9]/40 via-transparent to-[#e8e4d9]/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#e8e4d9]/60 via-[#e8e4d9]/40 to-[#e8e4d9]/90" />
+        {/* Dark overlay for better text contrast */}
+        <div className="absolute inset-0 bg-black/20" />
         {/* Vignette */}
         <div className="vignette" />
       </div>
@@ -97,15 +99,17 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
         <h1
           ref={titleRef}
-          className="font-['Forum'] text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[#242424] leading-tight mb-8 text-shadow-3d"
+          className="font-['Forum'] text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white leading-tight mb-8"
+          style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.6), 0 0 40px rgba(0,0,0,0.3)' }}
         >
           <span className="block">ПУТЕШЕСТВИЕ</span>
-          <span className="block text-[#d1c7b8]">ВО ВРЕМЕНИ</span>
+          <span className="block text-[#f5f0e6]">ВО ВРЕМЕНИ</span>
         </h1>
 
         <p
           ref={subtitleRef}
-          className="max-w-2xl mx-auto text-xl sm:text-2xl text-[#242424]/80 mb-12 leading-relaxed"
+          className="max-w-2xl mx-auto text-xl sm:text-2xl text-white mb-12 leading-relaxed"
+          style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.6)' }}
         >
           Исследуйте богатую и сложную историю России от древних времен до
           наших дней
