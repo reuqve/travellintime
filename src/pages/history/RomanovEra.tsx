@@ -116,7 +116,7 @@ export default function RomanovEra() {
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="/romanov-era.jpg"
+            src="/travellintime/romanov-era.jpg"
             alt="Romanov Era"
             className="w-full h-full object-cover"
           />

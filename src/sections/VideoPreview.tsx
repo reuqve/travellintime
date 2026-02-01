@@ -103,7 +103,7 @@ export default function VideoPreview() {
               }`}
             >
               <img
-                src="/video-battle.jpg"
+                src="/travellintime/video-battle.jpg"
                 alt="Historical video preview"
                 className={`w-full h-[350px] object-cover transition-transform duration-700 ${
                   isHovered ? 'scale-110' : 'scale-100'

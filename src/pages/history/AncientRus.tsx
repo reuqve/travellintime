@@ -119,7 +119,7 @@ export default function AncientRus() {
         {/* Background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/ancient-rus.jpg"
+            src="/travellintime/ancient-rus.jpg"
             alt="Ancient Rus"
             className="w-full h-full object-cover"
           />
